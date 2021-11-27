@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Webseite</title>
+        <link rel="icon" href="avatar.png">
+    </head>
+    <body>
+        <img src="avatar.png" alt="Profilbild" width="200">
+        <h1>Max Mustermann</h1>
+        <p><em>Ich bin ein <br><strong>Webentwickler</strong></em></p>
+        <p>Programmieren ist meine Leidenschaft</p>
+        <hr>
+
+        <h2>Meine Hobbys</h2>
+        <ol>
+            <li>Reisen</li>
+            <li>Sport</li>
+            <li>Essen</li>
+        </ol>
+
+        <hr>
+        <h2>Kontaktdaten</h2>
+        <ul>
+            <li>
+                <a href="mailto:abc@example.com">Email</a> 
+            </li>
+            <li>
+                <a href="tel:+49123456789">Handy</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/dimiweb_codeacademy">Instagram</a>
+            </li>
+        </ul>
+        <hr>
+
+        <h2>Zusätzliche Informationen</h2>
+        <a target="_blank" href="informations.html">Informationen</a>
+        <hr>
+        
+        <h2>Berufserfahrung</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Unternehmen</th>
+                    <th>Berufsbezeichnung</th>
+                    <th>Jahr</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Firma 1</td>
+                    <td>Frontend Entwickler</td>
+                    <td>2015-2016</td>
+                </tr>
+                <tr>
+                    <td>Firma 2</td>
+                    <td>Backend Entwickler</td>
+                    <td>2016-2021</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <h2>Mein Lieblingsvideo</h2>
+        <video src="sample.mp4" controls></video>
+        <hr>
+        <h2>Meine Lieblingsmusik</h2>
+        <audio src="sound.mp3" controls></audio>
+        <h2>Kontakt</h2>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Namen eingeben">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email Adresse angeben">
+            <br>
+            <label for="message">Nachricht</label>
+            <textarea id="message" cols="24" rows="5"></textarea>
+            <br>
+            <button type="submit">
+                Absenden
+            </button>
+        </form>
+
+      
+        <!-- Kommentar -->
+        <!-- 
+            <head> - Kopf der Webseite (Der Benutzer sieht den Inhalt nicht)
+            <body> - Körper der Webseite (Der Benutzer sieht den Inhalt)
+            <a> - Link Tag
+                -> href -> Link Attribut
+                -> target -> Attribute ob die Seite im selben Fenster geöffnet wird oder nicht (_blank)
+            <p> - Paragraph
+            <img> - Bild Tag
+            <h1> - <h6> - Überschriften Tag
+            <form> - Formular Tag
+            <ul> - unordered list (ungeordnete Liste)
+            <ol> - ordered lsit (geordnete Liste)
+            <li> - Element einer Liste
+            <hr> - Horizontale Linie
+            <div> - Tag zur Gruppierung von Elementen. Semantisch kein Bedeutung
+            <span> - Kann benutzt werden um mithilfe von CSS einen bestimmten Bereich von einem Text hervorzuheben. 
+                Semantisch keine Bedeutung
+            <button> - Knopf 
+                -> type "Submit" um Formular abzusenden
+            <form> - Formular Tag
+                -> "action" Pfad oder Datei, wo die Informationen verarbeitet werden sollen
+            <input> - Eingabefeld
+                -> type "Date" Kalendareingabe mit Datum
+                -> type "Color" Eingabe von einer Farbe
+                -> type "Text" Eingabe einzeiliger Text
+                -> type "Email" Eingabe Email mit Validierung nach Absenden
+                -> type "Password" Eingabe Password mit verstecktem Text als Kreise
+             <textarea> - Eingabe mehrzeiliger Text
+            <label> - Bezeichnung für das Input Feld
+            <table> - Tabelle
+                -> <th> - Table Head. Tabellenkopf (fett gedruckt)
+                   <td> - Table Data. Tabellen Spalten
+                   <tr> - Table row. Tabellenzeile
+
+            <video> - Tag zum Einbinden von Videos
+                -> "controls" Attribut für die Anzeige von dem Steuerungpanel
+                -> "autoplay" Attribut für das automatische abspielen beim Laden
+            <audio> - Tag zum Einbinden von Audio
+                -> "controls" Attribut für die Anzeige von dem Steuerungpanel
+        -->
+    </body>
+</html>
